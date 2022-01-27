@@ -1,0 +1,14 @@
+@charset 'UTF-8';
+
+@import url('https://rsms.me/inter/inter.css'); // todo - self-host
+
+html {
+    background-color: #e6e6eb;
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
+}
